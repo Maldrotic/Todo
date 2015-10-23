@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Todo</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_create_todo">Create Todo</string>
+    <string name="not_selected">Not Selected</string>
+    <string name="set_time">Set Time</string>
+    <string name="set_date">Set Date</string>
+    <string name="create_todo_item">Create Todo Item</string>
+    <string name="todo_title_hint">What should I do?</string>
+    <string name="empty_list">Todo list is empty, add an item!</string>
+</resources>
