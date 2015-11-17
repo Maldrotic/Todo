@@ -5,7 +5,13 @@
     <string name="not_selected">Not Selected</string>
     <string name="set_time">Set Time</string>
     <string name="set_date">Set Date</string>
-    <string name="create_todo_item">Create Todo Item</string>
+    <string name="save">Save</string>
+    <string name="delete">Delete</string>
     <string name="todo_title_hint">What should I do?</string>
     <string name="empty_list">Todo list is empty, add an item!</string>
+    <string-array name="priority">
+        <item>High</item>
+        <item>Medium</item>
+        <item>Low</item>
+    </string-array>
 </resources>
