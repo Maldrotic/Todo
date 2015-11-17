@@ -7,18 +7,15 @@ import android.content.Loader;
 import android.database.Cursor;
 import android.os.Bundle;
 import android.support.design.widget.FloatingActionButton;
-import android.support.v4.view.MenuItemCompat;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
 import android.view.View;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.widget.AdapterView;
-import android.widget.ArrayAdapter;
 import android.widget.CursorAdapter;
 import android.widget.ListView;
 import android.widget.SimpleCursorAdapter;
-import android.widget.Spinner;
 import android.widget.TextView;
 
 public class TodoListActivity extends AppCompatActivity implements LoaderManager.LoaderCallbacks<Cursor> {
@@ -88,7 +85,7 @@ public class TodoListActivity extends AppCompatActivity implements LoaderManager
         Bundle bundle;
 
         switch (id) {
-            case R.id.action_settings:
+            case R.id.action_delete_all:
                 getContentResolver().delete(TodoContentProvider.CONTENT_URI, null, null);
                 return true;
             case R.id.timeSort:
