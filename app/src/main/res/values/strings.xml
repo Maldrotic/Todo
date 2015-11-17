@@ -9,9 +9,20 @@
     <string name="delete">Delete</string>
     <string name="todo_title_hint">What should I do?</string>
     <string name="empty_list">Todo list is empty, add an item!</string>
+    <string name="not_done">Not done</string>
+    <string name="done">Done</string>
+    <string name="sort">Sort</string>
+    <string name="time">Time</string>
+    <string name="priority">Priority</string>
+    <string name="status">Status</string>
     <string-array name="priority">
         <item>High</item>
         <item>Medium</item>
         <item>Low</item>
+    </string-array>
+    <string-array name="sort_orders">
+        <item>Time</item>
+        <item>Priority</item>
+        <item>Status</item>
     </string-array>
 </resources>

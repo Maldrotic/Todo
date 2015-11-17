@@ -13,6 +13,9 @@ public class TodoTable {
     public static final String COLUMN_PRIORITY = "priority";
     public static final String COLUMN_STATUS = "status";
 
+    public static final int DONE = 1;
+    public static final int NOT_DONE = 0;
+
     private static final String DATABASE_CREATE = "create table " + TABLE_TODO
             + "("
             + COLUMN_ID + " integer primary key autoincrement,"
@@ -20,7 +23,7 @@ public class TodoTable {
             + COLUMN_DATE + " text not null,"
             + COLUMN_TIME + " text not null,"
             + COLUMN_PRIORITY + " integer not null,"
-            + COLUMN_STATUS + " text not null"
+            + COLUMN_STATUS + " integer not null"
             + ");";
 
     public static void onCreate(SQLiteDatabase database) {

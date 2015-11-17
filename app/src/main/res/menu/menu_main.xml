@@ -1,6 +1,24 @@
 <menu xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools" tools:context=".MainActivity">
-    <item android:id="@+id/action_settings" android:title="@string/action_settings"
-        android:orderInCategory="100" app:showAsAction="never" />
+    <item android:id="@+id/action_settings"
+        android:title="@string/action_settings"
+        android:orderInCategory="100"
+        app:showAsAction="never" />
+    <item android:id="@+id/sort"
+        app:showAsAction="ifRoom"
+        android:orderInCategory="1"
+        android:title="@string/sort">
+        <menu>
+            <item
+                android:id="@+id/timeSort"
+                android:title="@string/time" />
+            <item
+                android:id="@+id/prioritySort"
+                android:title="@string/priority" />
+            <item
+                android:id="@+id/statusSort"
+                android:title="@string/status" />
+        </menu>
+    </item>
 </menu>
